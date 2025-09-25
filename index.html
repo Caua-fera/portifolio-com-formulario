@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Cauã</title>
+    <meta name="description" content="meu portfólio">
+    <meta name="keywords" content="Aluno, Escola, html, css">
+    <meta name="author" content="Cauã">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Cauã</a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#biografia">Biografia</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#formacao, servicos e projetos">Formação, Serviços e Projetos</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+        <section class="home">
+            <div class="home-img">
+                <img src="./img/Image.jpg" alt="Estudante do Senac Aclimação">
+            </div>
+            <div class="senac-img">
+                  <img src="./img/Senac_logo.svg.png" alt="Formando no Senac">
+            </div>
+            <div class="home-content">
+                <h1>Eu sou o <span>Cauã</span></h1>
+                <p class="fogo">Estudo no Senac Aclimação cursando o terceiro ano do ensino médio técnico em informatica.</p>
+            
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/login/pt" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Caua-fera" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/__rizzo__02__?s=21&t=x2qQtP647vR2tipzZWUn0Q" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/cauarcarvalho?igsh=MXF3YXh1a2x1ZDkzag%3D%3D&utm_source=qr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://pt-br.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </section>
+        <section id="biografia" class="blocos">
+            <h3>Biografia</h3>
+            <p>Me chamo Cauã tenho 18 anos pretendo trabalhar na area de TI mais especificamente em programação, ano que vem quero começar a faculdade em engenharia da computação e procurar um estágio na área. Gostaria de apreender mais linguagens de computação como Java Script e Python e também mais de design.</p>
+        </section>
+
+        <section id="habilidades" class="blocos">
+            <h3>Habilidades</h3>
+            <p>Paciente, Criativo, Liderança, Adaptabilidade e Resolução de Conflitos. </p>
+        </section>
+
+        <section id="formacao, servicos e projetos" class="blocos">
+            <h3>Formação, Serviços e Projetos</h3>
+            <p>Estou curando curso técnico em informatica no Senac Aclimação. Gostaria de apreesentar projetos e ideias novas a minha futura empresa como um aplicativo ou site. <p><p> Meus Projetos: <a href="https://github.com/Caua-fera" target="_blank" > https://github.com/Caua-fera </a></p>
+        </section>
+
+        <section id="experiencia" class="blocos">
+            <h3>Experência</h3>
+            <p>Tenho conhecimento em redes (Cisco Packet Tracer), Pacote Office e raso conhecimento sobre Html e Css.</p>
+        </section>
+
+        <section id="contato" class="blocos">
+            <h3>Contato</h3>
+            <ul>
+            <li> <p>Celular: (11) 99873-8143</p></li>
+            <li><p>E-mail: caua.rcarvalho@senacsp.edu.br</p></li>
+            </ul>
+            <form action="https://formsubmit.co/caua.rcarvalho@senacsp.edu.br" method="POST">
+            <label for="none" class="titulos">Nome:</label>
+            <input type="text" id="nome" name="Nome" placeholder="Nome do Usuário" required>
+            <br><br>
+            <label for="email" class="titulos">E-mail:</label>
+            <input type="text" id="email" name="Email" placeholder="Insira seu E-mail" required>
+            <br><br>
+            <label for="telefone" class="titulos">Telefone:</label>
+            <input type="text" id="telefone" name="Telefone" placeholder="Insira seu Telefone">
+            <h2>Mensagem</h2>
+            <textarea name="mensagem" placeholder="Coloque sua mensagem aqui..." style="resize: none;" rows="20" cols="40" id="mensagem" required></textarea>
+            <br><br>
+        <input type="submit" value="OK" id="ok">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+        <input type="hidden" name="_captcha" value="false">
+        </form>
+        </section>
+</body>
+</html>
